@@ -1,0 +1,33 @@
+.container {
+  padding-left: 135px;
+  padding-right: 135px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0;
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    color: $title-additional;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px; 
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.social-networks__list:not(:last-child) {
+  margin-right: 10px;
+}

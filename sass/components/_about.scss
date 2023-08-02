@@ -1,0 +1,76 @@
+.about-section {
+  padding-top: 120px;
+  padding-bottom: 30px;
+
+  &__wrapper {
+    display: flex;
+    width: 1230px;
+    height: 435px;
+    padding-top: 30px;
+    background-color: $wrapper-color;
+  }
+
+  &__pictures {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+
+  &__pictures img {
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  &__info {
+    flex: 1;
+    margin-left: 30px;
+  }
+
+  &__text {
+    margin: 20px 0;
+    color: $black-color;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  &__button {
+    cursor: pointer;
+    text-align: center;
+    border-style: none;
+    bottom: 0px;
+    left: 926px;
+    width: 222px;
+    height: 71px; 
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase; 
+    color: $primary-text-color;
+    background-color: $white-text;
+    }
+  
+  &__button svg {
+    vertical-align: middle;
+  }
+  
+  &__button:hover,
+  &__button:focus {
+    color: $accent-color;
+    border: 1px solid $accent-color;
+  }
+  
+  &__button:hover svg {
+    fill: $accent-color;
+  }
+}
+
+img.specific-image {
+  height: 345px;
+  margin-top: 30px;
+}

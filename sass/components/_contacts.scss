@@ -1,0 +1,90 @@
+.contacts {
+  margin-bottom: 22px;
+
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+
+  &__input {
+    width: 391px;
+    height: 46px; 
+    border: none;
+    outline: none;
+    padding-left: 21px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px; 
+    color: $contacts-input;
+    background: $contacts-back;
+  }
+
+  &__textarea {
+    width: 391px;
+    height: 147px; 
+    border: none;
+    outline: none;
+    padding-left: 21px;
+    padding-top: 14px;
+    margin-bottom: 22px;
+    color: $contacts-input;
+    background: #F3F3F3;
+  }
+
+  &__textarea::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.56px; 
+    color: $contacts-input;
+  }
+
+  &____input-container{
+    position: relative;
+  }
+
+  &__checkbox {
+    margin-right: 10px;
+  }
+
+  &__private-policy {
+    margin-bottom: 21px;
+    width: 331px;
+  }
+
+  &__label {
+    color: $primary-text-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+  }
+}
+
+.required-field__tel {
+  color: $alert;
+  margin-left: -254px;
+}
+
+.required-field__mail {
+  color: $alert;
+  margin-left: -325px;
+}
+
+.required-field__text {
+  color: $alert;
+  position: absolute;
+  left: 240px;
+  top: 3225px;
+}

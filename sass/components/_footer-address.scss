@@ -1,0 +1,43 @@
+.footer-address {
+  font-style: normal;
+  
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 33px;
+    width: 260px;
+  }
+
+  &__item svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+  }
+
+  &__map {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    color: $white-text; 
+  }
+
+  &__mail {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    color: $white-text;
+  }
+
+  &__tel {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.42px; 
+    color: $white-text; 
+  }
+}

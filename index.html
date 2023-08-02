@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Project</title>
+    <link href="https://fonts.cdnfonts.com/css/tt-hoves-pro-trial" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Open+Sans&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__block container">
+        <nav class="navigation">
+            <a href="./index.html" class="logo">
+              <img src="./images/logo.jpg" width="70" height="44" alt="digital project logo">
+            </a>
+          <ul class="site-nav" id="navigation">
+            <li class="site-nav__list">
+              <a href="./index.html" class="site-nav__link current-page">Главная</a>
+            </li>
+            <li class="site-nav__list">
+              <a href="#" class="site-nav__link other-page">Галерея</a>
+            </li>
+            <li class="site-nav__list">
+              <a href="#" class="site-nav__link other-page">Проекты</a>
+            </li>
+            <li class="site-nav__list">
+              <a href="#" class="site-nav__link other-page">Сертификаты</a>
+            </li>
+            <li class="site-nav__list">
+              <a href="#" class="site-nav__link other-page">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__block">
+          <div class="hero__wrapper">
+            <h1 class="hero__title">
+              Project <br />
+              <span class="hero__title-span">Home</span>
+            </h1>
+            <div class="hero__container-btn">
+              <button type="button" class="hero__button-arr" data-modal-open>
+                <svg width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-arrow-left"></use>
+                </svg>
+              </button>
+              <button type="button" class="hero__button-arr" data-modal-open>
+                <svg width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="hero__paragraph-wrapper">
+              <p class="hero__paragraph">01</p>
+              <p class="hero__paragraph">02</p>
+            </div>
+          </div>
+          <img src="./images/hero.jpg" width="770" height="829" alt="building">
+        </div>
+        <button type="button" class="hero__button" data-modal-open>Взглянуть
+          <svg width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </section>
+
+      <section class="about-section">
+        <div class="about-section__wrapper container">
+          <div class="about-section__pictures">
+            <img src="./images/Rectangle 8.jpg" alt="glass building" width="270" height="265">
+            <img src="./images/Rectangle 10.jpg" alt="building sky" width="270" height="140">
+          </div>
+          <img src="./images/Rectangle 9.jpg" alt="angle building" width="270" height="345" class="specific-image">
+          <div class="about-section__info">
+            <h2 class="section__title">О компании</h2>
+            <p class="about-section__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <button type="button" class="about-section__button">Читать
+              <svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title tasks">Оновные задачи</h2>
+          <div class="tasks__wrapper">
+            <div class="tasks__wrapper-info">
+              <h3 class="tasks__number">1</h3>
+              <p class="tasks__text">Создание комфортных условий и повышение качества обслуживания клиентов</p>
+            </div>
+            <div class="tasks__wrapper-info">
+              <h3 class="tasks__number">2</h3>
+              <p class="tasks__text">Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio-section">
+        <div class="container">
+          <h2 class="section__title portfolio-section__title">Наши проекты</h2>
+          <div class="portfolio-section__examples">
+            <div class="portfolio-section__overlay"> 
+              <img src="./images/Rectangle 12.jpg" alt="unusual building" width="570" height="255">
+                <div class="portfolio-section__shadow">
+                    <h1 class="portfolio-section__name">Досуговый центр</h1>
+                    <button type="button" class="portfolio-section__button">Подробнее
+                      <svg width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                      </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="portfolio-section__overlay">
+              <img src="./images/image 15.jpg" alt="unusual building" width="570" height="255">
+              <div class="portfolio-section__shadow">
+                <h1 class="portfolio-section__name">Досуговый центр</h1>
+                <button type="button" class="portfolio-section__button">Подробнее
+                  <svg width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="portfolio-section__examples">
+            <img src="./images/image 16.jpg" alt="mini stadium" width="270" height="255">
+            <img src="./images/image 17.jpg" alt="high-rise" width="470" height="255">
+            <img src="./images/image 18.jpg" alt="balloon" width="370" height="255">
+        </div>
+        <div class="portfolio-section__wrap">
+          <button type="button" class="portfolio-section__button-submit">Все проекты
+            <svg width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title contacts">Связаться с нами</h2>
+          <div class="contacts__wrapper">
+            <div>
+              <form action="/submit" method="POST" class="contacts__form">
+                <div>
+                  <input type="text" placeholder="Имя" name="name" required class="contacts__input">
+                </div>
+                <div>
+                  <input type="tel" placeholder="Номер телефона" id="phone" name="phone" required class="contacts__input">
+                  <span class="required-field__tel">*</span>
+                </div>
+                <div>
+                  <input type="email" placeholder="E-mail" name="email" required class="contacts__input">
+                  <span class="required-field__mail">*</span>
+                </div>
+                <div>
+                  <input type="text" placeholder="Интересующий товар/услуга" name="product" class="contacts__input">
+                </div>
+                <div class="contacts__input-container">
+                  <textarea id="message" placeholder="Сообщение" rows="4" class="contacts__textarea"></textarea>
+                  <span class="required-field__text">*</span>
+                </div>
+                <div class="contacts__private-policy">
+                  <input class="contacts__checkbox" type="checkbox" id="privacy-policy" name="privacy-policy" required> 
+                  <label class="contacts__label" for="privacy-policy">Отправляя заявку Вы соглашаетесь с политикой конфиденциальности</label>
+                </div>
+                <div>
+                  <button type="submit" class="portfolio-section__button-submit">Отправить
+                    <svg width="24" height="24">
+                      <use href="./images/symbol-defs.svg#icon-arrow-right"></use>
+                    </svg>
+                  </button>
+                </div>
+              </form>         
+            </div>
+            <img src="./images/image 12.jpg" alt="human" width="749" height="369">
+          </div>
+        </div>
+      </section>
+    </main>
+        <footer class="footer">
+          <div class="container footer__block">
+            <a href="index.html">
+              <img src="./images/logo-white.png" alt="white-company-logo" width="145" height="94">
+            </a>
+            <div class="footer-contact-information">
+              <h3 class="footer-networks__title">Информация</h3>
+              <ul class="footer-contact-information__list">
+                <li class="footer-contact-information__item">Главная</li>
+                <li class="footer-contact-information__item">Галерея</li>
+                <li class="footer-contact-information__item">Проекты</li>
+                <li class="footer-contact-information__item">Сертификаты</li>
+                <li class="footer-contact-information__item">Контакты</li>
+              </ul>
+            </div>
+            <div class="footer-contact-navigation">
+              <h3 class="footer-networks__title">Контакты</h3>
+              <address class="footer-address">
+                <ul class="footer-address__list">
+                  <li class="footer-address__item">
+                    <a href="https://goo.gl/maps/YCJC3qQ4oyy43EqX8" class="footer-address__map">
+                      <svg class="" width="11" hight="16">
+                        <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                      </svg>
+                      100000, Республика  Казахстан, 
+                      г. Караганда, ул. Телевизионная 10
+                    </a>
+                  </li>
+                  <li class="footer-address__item">
+                    <a href="tel:+380000000000" class="footer-address__tel">
+                      <svg class="" width="16" hight="16">
+                        <use href="./images/symbol-defs.svg#icon-Group"></use>
+                      </svg>
+                      +38 (000) 000 00 00
+                    </a>
+                  </li>
+                  <li class="footer-address__item">
+                    <a href="mailto:mail@gmail.com" class="footer-address__mail">
+                      <svg class="" width="16" hight="11">
+                        <use href="./images/symbol-defs.svg#icon-mail"></use>
+                      </svg>
+                      mail@gmail.com
+                    </a>
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer-social-networks">
+              <h3 class="footer-networks__title">Социальные сети</h3>
+              <ul class="social-networks">
+                <li class="social-networks__list">
+                  <a class="social-networks__links footer-networks">
+                    <svg class="social-networks__icons" width="10" height="19">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-networks__list">
+                  <a class="social-networks__links footer-networks">
+                    <svg class="social-networks__icons" width="22" height="17">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-networks__list">
+                  <a class="social-networks__links footer-networks">
+                    <svg class="social-networks__icons" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-Linked-In"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-networks__list">
+                  <a class="social-networks__links footer-networks">
+                    <svg class="social-networks__icons" width="14" height="19">
+                      <use href="./images/symbol-defs.svg#icon-pininterest"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <p class="footer__rights">© 2019 Digital Project. Все права защищены.</p>
+  </body>
+</html>
